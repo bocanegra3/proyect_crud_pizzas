@@ -1,5 +1,6 @@
 body {
   background-color: #fff;
+  font-size: 16px;
 }
 #header-container {
   display: flex;
@@ -10,7 +11,7 @@ body {
 }
 #header-container h1 {
   font-family: "Kalam", cursive;
-  font-size: 50px;
+  font-size: 3rem;
   font-style: italic;
   font-weight: bold;
   padding-left: 15px;
@@ -36,7 +37,7 @@ nav ul li {
   font-weight: bold;
 }
 nav ul li a {
-  font-size: 30px;
+  font-size: 2rem;
   color: #333;
   text-decoration: none;
   padding: 15px;
@@ -49,7 +50,7 @@ nav ul li a:hover {
 .main-content h2 {
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
   letter-spacing: 2px;
   color: #000000;
   font-family: "Oswald", sans-serif;
@@ -77,6 +78,7 @@ padding: 10px;
 .gallery li img{
   width: 100%; /*imagenes responsivas*/
   max-width: 100%;/*imagenes responsivas*/
+  height: auto;
   margin-bottom: 6px;
   justify-content: center;
 }
@@ -84,7 +86,7 @@ padding: 10px;
 .gallery li h3{
   margin-bottom: 6px;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.05rem;
   font-weight: bold;
   line-height: 100%;
   text-transform: uppercase;
@@ -94,19 +96,44 @@ padding: 10px;
 
 .gallery li p{
   text-align: center;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: bold;
   color: #187d81;
 }
 
 .gallery li p sup{
-font-size: 12px;
+font-size: 1rem;
 }
 
 .gallery li time{
   display: flex;
   justify-content: center;
-  font-size: 16px;
+  font-size: 1.05rem;
   font-weight: bold;
   color: #1a5b5e;
 }
+footer{
+display: flex;
+justify-content: center;
+color: #000000;
+font-size: 1.5rem;
+font-family: "Oswald", sans-serif ;
+font-weight: bold;
+}
+@media (max-width:960px){
+  #header-container{
+    flex-direction: column;
+  }
+  .gallery{
+  flex-direction: column;
+  margin-top: 60px;
+  }
+  h2{
+    background-color: red;
+  }
+  .gallery li{
+    width: 100%;
+    justify-content: center;
+  }
+}
+
