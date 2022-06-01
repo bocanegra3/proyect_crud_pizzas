@@ -10,8 +10,8 @@ body {
   margin-top: 1px;
 }
 #header-container h1 {
-  font-family: "Kalam", cursive;
-  font-size: 3rem;
+  font-family: 'Lobster', cursive;
+  font-size: 4rem;
   font-style: italic;
   font-weight: bold;
   padding-left: 15px;
@@ -112,6 +112,19 @@ font-size: 1rem;
   font-weight: bold;
   color: #1a5b5e;
 }
+.gallery li .button{
+  margin-top: 5px;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  background: #548c1d;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  font-family: "work sand", sans-serif;
+}
 footer{
 display: flex;
 justify-content: center;
@@ -120,6 +133,8 @@ font-size: 1.5rem;
 font-family: "Oswald", sans-serif ;
 font-weight: bold;
 }
+
+
 @media (max-width:960px){
   #header-container{
     flex-direction: column;
