@@ -126,15 +126,55 @@ font-size: 1rem;
   font-family: "work sand", sans-serif;
 }
 footer{
-display: flex;
-justify-content: center;
 color: #000000;
 font-size: 1.5rem;
 font-family: "Oswald", sans-serif ;
 font-weight: bold;
+
+}
+#login{
+width: 100%;
+text-align: center;
+
+}
+#login a:hover{
+  color:#000000;
+  font-size: 1.6rem;
+  background: rgb(238,250,115);
+  background: radial-gradient(circle, rgba(238,250,115,1) 0%, rgba(0,255,141,1) 51%, rgba(35,75,44,1) 100%);
+   border-radius: 2rem;
+}
+.form-signin{
+  max-width: 380px;
+  background-color: #fff;
+  border: none;
+  padding: 15px 35px 45px 35px;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  color:#ffffff;
+  background: #007bff;
+  border-radius:50%;
+  margin:0 auto;
+  margin-bottom: 10px;
+}
+.form-signin-heading{
+  margin-bottom: 30px;
 }
 
-
+input[type="text"]{
+border-bottom-left-radius:0;
+border-bottom-right-radius:0;
+}
+input[type="password"]{
+  border-top-left-radius:0;
+  border-top-right-radius:0;
+}
+.container{
+  background: rgb(56,57,83);
+  background: linear-gradient(34deg, rgba(56,57,83,1) 0%, rgba(21,0,255,1) 39%, rgba(32,10,115,1) 100%);
+}
 @media (max-width:960px){
   #header-container{
     flex-direction: column;
