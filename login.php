@@ -33,8 +33,8 @@ $row=$stmt->fetch(PDO::FETCH_ASSOC);
 if($row==0){
 ?>
 <div class="alert alert-danger">
-<a href="login.html" class="close" data-dismiss="alert" >return</a>
-<div class="text-center"> <strong>ERROR ERROR</strong> o hack -.- </div>
+<a href="login.html" class="close" data-dismiss="alert">return</a>
+<div class="text-center"> <strong>ERROR 901-</strong> Corrobore los datos ingresados </div>
 </div>
 <?php
 }
